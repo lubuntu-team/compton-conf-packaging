@@ -1,0 +1,31 @@
+Source: compton-conf
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>,
+           ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
+           Andrew Lee (李健秋) <ajqlee@debian.org>
+Section: x11
+Priority: optional
+Build-Depends: debhelper (>= 11~),
+               libconfig-dev,
+               libkf5windowsystem-dev,
+               libqt5svg5-dev,
+               libqt5x11extras5-dev,
+               libx11-dev,
+               lxqt-build-tools (>= 0.5.0~)
+Standards-Version: 4.1.4
+Vcs-Browser: https://salsa.debian.org/lxqt-team/compton-conf
+Vcs-Git: https://salsa.debian.org/lxqt-team/compton-conf.git
+Homepage: https://github.com/lxqt/compton-conf
+
+Package: compton-conf
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         compton
+Recommends: compton-conf-l10n
+Breaks: lxqt-common (<< 0.12.0)
+Replaces: lxqt-common (<< 0.12.0)
+Description: Compton Configurator for Qt
+ Qt configuration tool for X composite manager
+ .
+ This package contain Compton Configurator.
