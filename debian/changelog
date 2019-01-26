@@ -1,6 +1,7 @@
 compton-conf (0.14.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Lubuntify the package.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 25 Jan 2019 22:42:11 -0600
 
