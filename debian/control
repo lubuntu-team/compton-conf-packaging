@@ -22,9 +22,7 @@ Homepage: https://github.com/lxqt/compton-conf
 
 Package: compton-conf
 Architecture: any
-Depends: ${misc:Depends},
-         ${shlibs:Depends},
-         compton
+Depends: compton, ${misc:Depends}, ${shlibs:Depends}
 Recommends: compton-conf-l10n
 Breaks: lxqt-common (<< 0.12.0)
 Replaces: lxqt-common (<< 0.12.0)
