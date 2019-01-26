@@ -24,8 +24,8 @@ Package: compton-conf
 Architecture: any
 Depends: compton, ${misc:Depends}, ${shlibs:Depends}
 Recommends: compton-conf-l10n
-Breaks: lxqt-common (<< 0.12.0)
-Replaces: lxqt-common (<< 0.12.0)
+Breaks: lxqt-common (<< 0.12.0), compton-conf-l10n (<< 0.14.0)
+Replaces: lxqt-common (<< 0.12.0), compton-conf-l10n (<< 0.14.0)
 Description: Compton Configurator for Qt
  Qt configuration tool for X composite manager
  .
