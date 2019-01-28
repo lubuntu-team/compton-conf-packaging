@@ -1,3 +1,9 @@
+compton-conf (0.14.0-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Don't recommend compton-conf-l10n.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 27 Jan 2019 21:04:07 -0600
+
 compton-conf (0.14.0-0ubuntu2) disco; urgency=medium
 
   * Add Breaks/Replaces on compton-conf-l10n.
