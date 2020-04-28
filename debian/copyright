@@ -3,8 +3,8 @@ Upstream-Name: compton-conf
 Source: https://github.com/lxqt/compton-conf
 
 Files: *
-Copyright: 2013-2018 Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
-           2013-2018 LXQt team
+Copyright: 2013-2020 Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
+           2013-2020 LXQt team
 License: LGPL-2.1+
 
 Files: debian/*
