@@ -5,6 +5,7 @@ compton-conf (0.15.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update upstream's signing key.
   * Update copyright.
   * debhelper -> debhelper-compat.
+  * Bump Standards-version to 4.5.0, no changes needed.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 28 Apr 2020 16:27:57 -0500
 
