@@ -1,4 +1,4 @@
-compton-conf (0.15.0-0ubuntu1) UNRELEASED; urgency=medium
+compton-conf (0.15.0-0ubuntu1) groovy; urgency=medium
 
   * New upstream release.
     - Bump LXQt build depends.
@@ -8,7 +8,7 @@ compton-conf (0.15.0-0ubuntu1) UNRELEASED; urgency=medium
   * debhelper -> debhelper-compat.
   * Bump Standards-version to 4.5.0, no changes needed.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 28 Apr 2020 16:27:57 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 03 Jun 2020 23:10:01 -0500
 
 compton-conf (0.14.1-0ubuntu1) disco; urgency=medium
 
