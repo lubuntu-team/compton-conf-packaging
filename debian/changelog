@@ -1,3 +1,26 @@
+compton-conf (0.16.0-1ubuntu1) hirsute; urgency=medium
+
+  * New upstream version.
+
+ -- Raman Sarda <theloudspeaker@disroot.org>  Wed, 17 Feb 2021 02:17:23 +0530
+
+compton-conf (0.16.0-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.0, no changes needed
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Repository, Repository-Browse.
+  * Remove obsolete field Name from debian/upstream/metadata (already present in
+    machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2021 19:48:45 +0800
+
 compton-conf (0.15.0-0ubuntu1) groovy; urgency=medium
 
   * New upstream release.
@@ -10,11 +33,30 @@ compton-conf (0.15.0-0ubuntu1) groovy; urgency=medium
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 03 Jun 2020 23:10:01 -0500
 
+compton-conf (0.14.1-1) unstable; urgency=medium
+
+  * Cherry-picked upstream release 0.14.1.
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 26 Feb 2019 00:17:09 +0100
+
 compton-conf (0.14.1-0ubuntu1) disco; urgency=medium
 
   * New upstream release.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 12:35:55 -0600
+
+compton-conf (0.14.0-1) unstable; urgency=medium
+
+  * Cherry-picked upstream release 0.14.0.
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Bumped minimum version lxqt-build-tools (>= 0.6.0~)
+  * Removed obsolete PULL_TRANSLATIONS= OFF from dh_auto_configure
+  * Added l10n-package, moved from lxqt-l10n
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 14:29:38 +0100
 
 compton-conf (0.14.0-0ubuntu3) disco; urgency=medium
 
@@ -211,3 +253,4 @@ compton-conf (0.1.0+20150626-1) unstable; urgency=medium
   * Merging upstream version 0.1.0+20150626.
 
  -- Andrew Lee (李健秋) <ajqlee@debian.org>  Fri, 14 Aug 2015 15:03:55 +0800
+
