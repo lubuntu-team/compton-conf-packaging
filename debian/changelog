@@ -1,3 +1,9 @@
+compton-conf (0.16.0-1ubuntu5) plucky; urgency=medium
+
+  * Depend on lxqt-build-tools-qt5.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 03 Jan 2025 05:17:20 -0600
+
 compton-conf (0.16.0-1ubuntu4) plucky; urgency=medium
 
   * No-change rebuild for lxqt-build-tools C++17 -> C++20.
