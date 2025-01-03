@@ -1,3 +1,9 @@
+compton-conf (0.16.0-1ubuntu4) plucky; urgency=medium
+
+  * No-change rebuild for lxqt-build-tools C++17 -> C++20.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 03 Jan 2025 03:51:17 -0600
+
 compton-conf (0.16.0-1ubuntu3) noble; urgency=medium
 
   * No-change rebuild for CVE-2024-3094
